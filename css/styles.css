@@ -1,0 +1,26 @@
+*{
+    background: #fff;
+}
+
+.contenedor{
+    width: auto;
+    border: solid 1px blue;
+    background: #cccccc
+}
+
+.fondo{
+    background: #ccc;
+}
+
+@font-face {
+	font-family: Franklin-Gothic-Heavy_18503;
+	src:(Fuentes/Franklin-Gothic-Heavy_18503.ttf);
+}
+
+.menu{
+	font-family: "Franklin Gothic Heavy";
+}
+
+.titulo{
+    font-family: "Franklin Gothic Heavy";
+}

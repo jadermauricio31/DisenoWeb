@@ -1,0 +1,185 @@
+@font-face {
+	font-family: Franklin-Gothic-Heavy_18503;
+	src:(Fuentes/Franklin-Gothic-Heavy_18503.ttf);
+	font-family: angsab;
+	src:(Fuentes/angsab.ttf);
+}
+
+body { 
+	background-image: url("fondo.jpg");
+}
+
+footer{
+
+	background-color: #020000;
+	margin: 0.5em auto;
+}
+
+.logounad img{
+
+	position: relative;
+    top: 10px;
+    left: 120px;
+
+}
+
+.titulo1{
+
+	font-family: "angsab";
+	color: #FFFFFF;
+	font-size: 10px;
+	font-style: bold;
+	position: relative;
+    top: -30px;
+    left: 400px;
+    
+}
+
+.titulo2{
+
+	font-family: "angsab";
+	color: #FFFFFF;
+	font-size: 10px;
+	font-style: bold;
+	position: relative;
+    top: -110px;
+    left: 680px;
+    
+}
+
+.footlogocalidad{
+
+   position: relative;
+   top: -80px;
+   left: 0px;
+   border-top-style: solid;
+   border-right-style: solid;
+   border-bottom-style: solid;
+   border-left-style: solid;
+   border-width: 2px;
+
+}
+
+.footlogocalidad .imagen1{
+
+    position: relative;
+    top: 0px;
+    left: 230px;
+
+}
+
+.footlogocalidad .imagen2{
+
+    position: relative;
+    top: 0px;
+    left: 250px;
+
+}
+
+.footlogocalidad .imagen3{
+
+    position: relative;
+    top: 0px;
+    left: 270px;
+
+}
+
+.footlogocalidad .imagen4{
+
+    position: relative;
+    top: 0px;
+    left: 290px;
+
+}
+
+.footlogocalidad .imagen5{
+
+    position: relative;
+    top: 0px;
+    left: 310px;
+
+}
+
+.menu {
+	font-family: "Franklin Gothic Heavy";
+}
+
+.titulo{
+    font-family: "Franklin Gothic Heavy";
+    text-align: center;
+    text-shadow: 5px 5px 5px 10px rgba(255,255,255,255,0.5);
+}
+
+/*Estilo general del menu*/
+nav ul {
+	list-style: none;
+	padding: 0;
+}
+
+nav li{
+	line-height: 3rem;
+	position: relative;
+}
+
+.menu ul{
+	position: absolute;
+	z-index: 1;
+}
+
+nav a{
+	color: #ddd;
+	display: block;
+	padding: 0 2.5em;
+	text-decoration: none;
+	transition: .4s;
+}
+
+nav a:hover{
+	background: #F0B429;
+}
+
+/*primer nivel  menu*/
+
+.menu{
+
+	background: #005883;
+	display: table;
+	width: 100%;
+	text-align: left;
+	margin: 0.5em auto;
+	max-width: 1000px;
+}
+	
+.menu >  li{
+	float: left;
+}
+
+/*segundo nivel del menu*/
+
+nav li li{
+	background: #005883;
+	max-height: 0;
+	overflow: hidden;
+	transition: all .5s;
+}
+
+nav li:hover > ul > li{
+	max-height: 1000px;
+	overflow: visible;
+}
+
+.menu > li > ul{
+	top: 100%;
+}
+
+.copyright p{
+
+	font-family: "angsab";
+	color: #FFFFFF;
+	font-size: 10px;
+	font-style: bold;
+	position: relative;
+    top: -60px;
+    left: 350px;
+
+}
