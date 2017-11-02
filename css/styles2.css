@@ -46,7 +46,7 @@ section{
 
 	background: #B3B3B3;
 	display: table;
-	width: 700px;
+	width: 1000px;
 	margin: 175px;
 	height: 400px;
     margin-top: auto;
@@ -67,12 +67,11 @@ section .lectura1{
 
 }
 
-section .twitter_widget{
 
-	position: relative;
-    top: 0.9px;
-    left: 740px;
-
+aside{
+	margin-left: auto;
+	width: 260px;
+	height: 400px;
 }
 
 .footlogocalidad{
