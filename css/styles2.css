@@ -1,12 +1,7 @@
-@font-face {
-	font-family: Franklin-Gothic-Heavy_18503;
-	src:(Fuentes/Franklin-Gothic-Heavy_18503.ttf);
-	font-family: angsab;
-	src:(Fuentes/angsab.ttf);
-}
-
 body { 
 	background-image: url("fondo.jpg");
+    background-repeat: no-repeat;
+background-size: cover;
 }
 
 footer{
@@ -51,9 +46,11 @@ section{
 
 	background: #B3B3B3;
 	display: table;
-	width: 100%;
-	margin: 0.5em auto;
-	max-width: 1000px;
+	width: 700px;
+	margin: 175px;
+	height: 400px;
+    margin-top: auto;
+    
 
 }
 
