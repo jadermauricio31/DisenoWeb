@@ -5,14 +5,58 @@
 	src:(Fuentes/angsab.ttf);
 }
 
+#contenedor{
+
+	width: 1200px;
+	height: auto;
+	margin: auto;
+	position: relative;
+}
+
 body { 
 	background-image: url("fondo.jpg");
+}
+
+header{
+	width: 1200px;
+	height: auto;
+	margin: auto;
+	border-top-right-radius: 10px;
+	border-bottom-left-radius: 10px;
+	
 }
 
 footer{
 
 	background-color: #020000;
-	margin: 0.5em auto;
+	
+}
+
+h2{
+
+	font-family: "angsab";
+	font-size: 20px;
+	font-style: bold;
+	text-align: center;
+
+}
+
+p{
+
+	font-family: "angsab";
+	font-size: 15px;
+	text-align: justify;
+
+
+}
+
+.img-responsive{
+
+	border-top-right-radius: 10px;
+	border-bottom-left-radius: 10px;
+	border-top-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+
 }
 
 .logounad img{
@@ -47,16 +91,6 @@ footer{
     
 }
 
-section{
-
-	background: #B3B3B3;
-	display: table;
-	width: 100%;
-	margin: 0.5em auto;
-	max-width: 1000px;
-
-}
-
 section .lectura1{
 
 	font-family: "angsab";
@@ -70,11 +104,89 @@ section .lectura1{
 
 }
 
-section .twitter_widget{
+section .lectura2{
 
+	font-family: "angsab";
+	color: #808080;
+	font-size: 15px;
+	font-style: normal;
+	text-align: justify;
 	position: relative;
-    top: 0.9px;
-    left: 740px;
+    top: 10px;
+    left: 0px;
+
+}
+
+section .lectura3{
+
+	font-family: "angsab";
+	color: #808080;
+	font-size: 15px;
+	font-style: normal;
+	text-align: justify;
+	position: relative;
+    top: 10px;
+    left: 0px;
+
+}
+
+section .lectura4{
+
+	font-family: "angsab";
+	color: #808080;
+	font-size: 15px;
+	font-style: normal;
+	text-align: justify;
+	position: relative;
+    top: 10px;
+    left: 0px;
+
+}
+
+section .lectura5{
+
+	font-family: "angsab";
+	color: #808080;
+	font-size: 15px;
+	font-style: normal;
+	text-align: justify;
+	position: relative;
+    top: 10px;
+    left: 0px;
+
+}
+
+.lectura{
+
+	width: 600px;
+	border-style: solid;
+	background-color: #FFFFFF;
+	border-color: #808080;
+	border-top-right-radius: 10px;
+	border-bottom-left-radius: 10px;
+	border-top-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+	margin-bottom: 10px;
+	position: relative;
+    top: 0px;
+    left: 135px;
+
+}
+
+.twitter_widget{
+
+    width: 380px;
+	border-style: solid;
+	border-color: #808080;
+	border-top-right-radius: 10px;
+	border-bottom-left-radius: 10px;
+	border-top-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+	margin-left: 20px;
+	margin-bottom: 10px;
+	position: relative;
+    top: -275px;
+    left: 590px;
 
 }
 
@@ -142,6 +254,14 @@ section .twitter_widget{
 }
 
 /*Estilo general del menu*/
+
+nav{
+
+	width: 1200px;
+	margin: auto;
+
+}
+
 nav ul {
 	list-style: none;
 	padding: 0;
