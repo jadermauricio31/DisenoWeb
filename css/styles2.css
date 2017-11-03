@@ -15,6 +15,8 @@
 
 body { 
 	background-image: url("fondo.jpg");
+    background-repeat: no-repeat;
+background-size: cover;
 }
 
 header{
@@ -93,6 +95,7 @@ p{
 
 section .lectura1{
 
+ 
 	font-family: "angsab";
 	color: #808080;
 	font-size: 15px;
@@ -101,6 +104,15 @@ section .lectura1{
 	position: relative;
     top: 10px;
     left: 0px;
+
+	background: #B3B3B3;
+	display: table;
+	width: 1000px;
+	margin: 175px;
+	height: 400px;
+    margin-top: auto;
+    
+ 
 
 }
 
@@ -188,6 +200,12 @@ section .lectura5{
     top: -275px;
     left: 590px;
 
+ }
+
+aside{
+	margin-left: auto;
+	width: 260px;
+	height: 400px;
 }
 
 .footlogocalidad{
