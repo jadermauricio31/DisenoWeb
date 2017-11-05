@@ -1,26 +1,21 @@
-*{
-    background: #fff;
+.cont{
+    margin-top: 15px;
 }
 
-.contenedor{
-    width: auto;
-    border: solid 1px blue;
-    background: #cccccc
+.footer {
+	background: #000000;
 }
 
-.fondo{
-    background: #ccc;
+.text {
+	color: #ffffff;
+    font-size: 10px
+}
+.text2 {
+	color: #ffffff;
+    text-align: center;
+    margin-top: 15px
 }
 
-@font-face {
-	font-family: Franklin-Gothic-Heavy_18503;
-	src:(Fuentes/Franklin-Gothic-Heavy_18503.ttf);
-}
-
-.menu{
-	font-family: "Franklin Gothic Heavy";
-}
-
-.titulo{
-    font-family: "Franklin Gothic Heavy";
+.image{
+    margin-left: 20%;
 }
