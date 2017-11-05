@@ -43,10 +43,18 @@ body {
 
 }
 
+<<<<<<< HEAD
 .footlogocalidad .imagen1{
     position: relative;
     top: 0px;
     left: 230px;
+=======
+body { 
+	background-image: url("fondo.jpg");
+    background-repeat: no-repeat;
+background-size: cover;
+}
+>>>>>>> 336db38d45c8503ce6f29ee379600747359d8a75
 
 }
 
@@ -105,8 +113,41 @@ header{
 
 }
 
+<<<<<<< HEAD
 .logounad {
     left: 0px;
+=======
+section .lectura1{
+
+ 
+	font-family: "angsab";
+	color: #808080;
+	font-size: 15px;
+	font-style: normal;
+	text-align: justify;
+	position: relative;
+    top: 10px;
+    left: 0px;
+
+	background: #B3B3B3;
+	display: table;
+	width: 1000px;
+	margin: 175px;
+	height: 400px;
+    margin-top: auto;
+    
+ 
+
+}
+
+section .lectura2{
+
+	font-family: "angsab";
+	color: #808080;
+	font-size: 15px;
+	font-style: normal;
+	text-align: justify;
+>>>>>>> 336db38d45c8503ce6f29ee379600747359d8a75
 	position: relative;
     top: 0px;
 	width: 100%;
@@ -162,6 +203,12 @@ p{
     top: -210px;
     left: 795px;
 
+ }
+
+aside{
+	margin-left: auto;
+	width: 260px;
+	height: 400px;
 }
 
 /*Estilo general del menu*/
